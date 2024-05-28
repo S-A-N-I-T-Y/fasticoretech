@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Quicksand:wght@300;400;500;600;700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+}
+h1,p,span{
+    margin: 0;
+    padding: 2.5px 0;
+}
+main{
+    font-family:    quicksand;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    box-shadow: 3px 2px 4px 3px  #e5e5ebbf;
+    padding:0 40px;
+    background-color: #ECECEC;
+}
+header{
+    background-color: #E1E0DE;
+    display: flex;
+    justify-content: space-between;
+    padding:60px 20px 20px;
+    margin-bottom: 10px;
+}
+.left_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left_container h1{
+    color: #262626;
+    font-weight: bolder;
+    
+}
+.right_container{
+    color: #04B5EC;
+    font-size: 24px;
+}
+aside{
+    text-align: right;
+}
+.second_container{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.left-part h1:nth-child(1){
+    border-bottom: 2px solid #04b5ec;
+    display: inline;
+}
+.left-part h1:nth-child(2){
+    margin-top: 10px;
+    font-weight: bolder;
+    font-size: 22px;
+    color: #060606;
+}
+.left-part{
+    font-size: 16px;
+}
+.right-part{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.right-part p:nth-child(1){
+    border-bottom: 2px solid #9C9C9C;
+}
+table{
+    text-align: left;
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+}
+table .table_heading{
+    background-color: #00B4E7;
+    border-top: 2px solid #626260;
+    border-bottom: 2px solid #626260;
+    padding: 20px;
+}
+.item{
+    border-bottom: 2px solid #626260;
+    padding: 20px ;
+}
+.item p:nth-child(1){
+    font-weight: bolder;
+}
+.item td:nth-child(3){
+    position: relative;
+}
+.item td:nth-child(3) p{
+    position: absolute;
+    bottom: 25%;
+    right: 65%;
+}
+.third_container{
+    display: flex;
+    justify-content: space-between;
+}
+.left_hand h1{
+    color: #00B4E7;
+    border-bottom: 2px solid #9C9C9C;
+    display: inline;
+}
+.left_hand p:nth-child(1){
+    margin-top: 20px;
+}
+.left_hand p{
+    font-weight: bold;
+}
+.right_hand{
+    text-align: end;
+}
+.right_hand p:nth-child(3){
+    margin-bottom: 30px;
+}
+.right_hand span{
+    background-color: #00B4E7;
+    padding: 20px 40px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;  
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    margin-top: 60px;
+}
